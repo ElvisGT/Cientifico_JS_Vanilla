@@ -2,6 +2,8 @@ import Header from '../templates/Header';
 import Home from '../pages/Home';
 import Error404 from '../pages/Error404';
 import Character from '../pages/Character';
+import getHash from '../utils/getHash';
+import resolveRoutes from '../utils/resolveRoutes';
 
 
 const routes = {
